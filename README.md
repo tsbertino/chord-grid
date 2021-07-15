@@ -2,7 +2,6 @@
 
 A quick script inspired by an [answer](https://www.reddit.com/r/musictheory/comments/o442gg/how_can_i_name_a_chord_that_i_dont_know_the_name/h2f74b2/) on /r/musictheory demonstrating how to find possible chords from a set of musical notes. The script takes a set of notes as the input and outputs a grid in this format, arranging the set in thirds with each note as the root.
 
-
 ## Basic input
 
 ``` python
@@ -24,11 +23,10 @@ input = ['C','Eb', 'G#', 'F']
 ```python
 input = ['C', 'Eb', 'Ab', 'F']
 ```
----
+
 This is not preferable and in a real context, one set of accidentals may be more likely than another based on the harmonic context, but I included this as a simple redundancy. In most cases it could be assumed that notes are following the standard of using one type of accidental, which preserves the 'stack of thirds' (if the notes inputted are thirds). 
 
 In this script, if the enharmonic equivalent is not present in the 'stack of thirds' built from the other notes, it simply will not be included, as the the template is set in thirds and accidentals are only added later.
-
 
 ## Output
 
@@ -41,8 +39,6 @@ The sequence is then rearranged by thirds up to the 13th, using each note as the
     ['G', 'x', 'x', 'F', 'x', 'C', 'Eb']
     ['F', 'x', 'C', 'Eb', 'G', 'x', 'x']
 ```
-
----
 
 For this example, this sequence of notes could represent a Cmin(add11), as it has the most notes present in the 'beginning' of the stack of thirds, namely the full minor triad of C, Eb and G. 
 
