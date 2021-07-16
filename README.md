@@ -40,7 +40,7 @@ The sequence is then rearranged by thirds up to the 13th, using each note as the
     ['F', 'x', 'C', 'Eb', 'G', 'x', 'x']
 ```
 
-For this example, this sequence of notes could represent a Cmin(add11), as it has the most notes present in the 'beginning' of the stack of thirds, namely the full minor triad of C, Eb and G. 
+For this example, this sequence of notes could represent a Cmin(add11), as it has the most notes present in the 'beginning' of the stack of thirds, namely the full minor triad of C, Eb and G, along with an extension of F, the 11th.
 
 This is simply an easy, automated way to visualize the potential harmonic relationships of any given set of notes, allowing the user to decide likelhood of any given chord form based on harmonic context, arrangement, music theory, key, etc.
 
