@@ -45,9 +45,3 @@ For this example, this sequence of notes could represent a Cmin(add11), as it ha
 This is simply an easy, automated way to visualize the potential harmonic relationships of any given set of notes, allowing the user to decide likelhood of any given chord form based on harmonic context, arrangement, music theory, key, etc.
 
 ---
-
-### Quick notes on naming chord forms
-
-While naming any specific chord form is beyond the scope and utility of the script, the likelhood of any given set could be estimated by weighing it towards the presence of earlier notes, or notes with stronger harmonic roles. These two characters can be tricky to reconcile, shown for example by the fact that a present seventh weighs heavier than a fifth (due to harmonic importance/tension/weight), even though it is further from the root and not part of the triad. These relationships and rules can become complex, and vary widely in context. 
-
-As of now I've left that out, as I think it defeats the purpose of this as a learning tool and over complicates what is a simple script and visualization. 
