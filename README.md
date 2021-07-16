@@ -24,7 +24,7 @@ input = ['C','Eb', 'G#', 'F']
 input = ['C', 'Eb', 'Ab', 'F']
 ```
 
-This is not preferable and in a real context, one set of accidentals may be more likely than another based on the harmonic context, but I included this as a simple redundancy. In most cases it could be assumed that notes are following the standard of using one type of accidental, which preserves the 'stack of thirds' (if the notes inputted are thirds). 
+This is not preferable and in practice, one set of accidentals may be more likely than another based on the harmonic context, but I included this as a simple redundancy. In most cases it could be assumed that notes are following the standard of using one type of accidental, which preserves the 'stack of thirds' (if the notes inputted are thirds). 
 
 In this script, if the enharmonic equivalent is not present in the 'stack of thirds' built from the other notes, it simply will not be included, as the the template is set in thirds and accidentals are only added later.
 
