@@ -1,6 +1,6 @@
 # chord-grid
 
-A quick script inspired by an [answer](https://www.reddit.com/r/musictheory/comments/o442gg/how_can_i_name_a_chord_that_i_dont_know_the_name/h2f74b2/) on /r/musictheory demonstrating how to find possible chords from a set of musical notes. The script takes a set of notes as the input and outputs a grid in this format, arranging the set in thirds with each note as the root.
+A quick script inspired by an [answer](https://www.reddit.com/r/musictheory/comments/o442gg/how_can_i_name_a_chord_that_i_dont_know_the_name/h2f74b2/) on /r/musictheory demonstrating how to find possible chords from a set of musical notes. The script takes a set of notes as the input and outputs a grid, arranging the set in thirds with each note as the root.
 
 ## Basic input
 
